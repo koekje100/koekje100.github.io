@@ -1,0 +1,127 @@
+title {
+  display: none;
+}
+
+body {
+    background-image: url("https://media.gq.com/photos/570839e937f8f9ca257cdd3e/master/pass/ted-watch-web-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: 0px;
+    font-family: oxygen, sans-serif;
+
+}
+  #photo1 {
+  position: relative;
+  bottom: 310px;
+  left: 500px;
+}
+
+ #photo2{
+  position: relative;
+  bottom: 600px;
+  left: 62%;
+ }
+
+ #photo3{
+   position: relative;
+   bottom: 665px;
+   left: 40%;
+   opacity: 0.9;
+ }
+
+ #photo4{
+   position: relative;
+   left: 96%;
+   bottom: 600px;
+ }
+
+ .toolbar {
+  width: 10%;
+  box-sizing: border-box;
+  background-color: EFEFEF;
+  border-style: solid;
+  border-color: AAAAAA;
+  border-width: 3px;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  margin: 0px;
+  padding: 0px;
+
+  color: white;
+  text-align: center;
+}
+
+ li {
+ display: block;
+ padding-bottom: 20px;
+ padding-left: 0px;
+ border-bottom: 3px solid AAAAAA;
+ }
+
+a {
+  display: block;
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  background-color: AAAAAA;
+  color: white;
+}
+
+.pageheader {
+  position: relative;
+  left: 25%;
+  width: 820px;
+  margin-bottom: 0px;
+  background-color: D3D3D3;
+  opacity: 0.75;
+  padding-top: 0px;
+
+  text-align-last: center;
+  color: 2F2F2F;
+}
+
+.frontpage {
+  position: absolute;
+  left: 25%;
+  width: 820px;
+  margin-top: 0px;
+  margin bottom: 0px;
+  height: 100%;
+  background-color: rgba(211,211,211,0.75);
+  padding: 0px;
+  font-size: 18px;
+}
+
+.subheadings {
+  font-size: 22px;
+
+}
+
+table {
+
+}
+
+th {
+  font-size: 30px;
+  background: #9bc2cf;
+  text-transform: uppercase;
+  padding: 8px;
+
+}
+
+td {
+  background: #b5dbe8;
+  opacity: 0.7;
+  padding: 10px;
+}
+
+  table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+  }
