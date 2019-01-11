@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+  <title>tessietest</title>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+
+    <ul class="toolbar">
+      <li><a href="index.html">Metingen</a></li>
+      <li><a href="setup.html">Setup</a></li>
+      <li><a href="over_ons.html">Over ons</a></li>
+    </ul>
+
+    <main>
+      <h1 class="header">Setup</h1>
+
+      <p class="header" id="materialsH">De gebruikte materialen:</p>
+
+      <ul class="text" id= "materials">
+        <li>Raspberry pi 3</li>
+        <li>Breadboard</li>
+        <li>5 male-female jumper wires</li>
+        <li>9 jumper wires</li>
+        <li>6 krokodillenklemmen</li>
+        <li>3 LDR's</li>
+        <li>3 condensators 10uF 50V</li>
+      </ul>
+
+      <p class="text"><br><br><br><br><br><br><br><br><br><br><br><img src="setup.jpg" id="p4"> Met het GPIO-board van de Raspberry Pi en een breadboard is dit circuit gebouwd.Vanuit pin #1 komt de positieve pool. Daaruit komen er drie gelijke delen die parallel aan elkaar liggen, namelijk drie een sensor. Een sensor bestaat uit jumper wires die de stroom leiden, vervolgens krokodillenklemmen die vastzitten aan een LDR. Hierdoor zit de LDR niet vast aan het breadboard en kan het op de gewenste plek worden gezet. Daarna komt een jumper wire male-female die respectievelijk op pin #7, #11 en #13 zitten van de Pi. Zij geven de meetgegevens door. Ten slotte zit de condensator, die met zijn kathode samenkomt in de min-pool met de andere sensoren. De min-pool zit op pin #6.<br><br>De pijlen geven de jumper wires voor de polen aan.</p>
+    </main>
+
+    <footer class="footer">Vragen? Stuur een mail naar <a id="email" href="mailto:5235@pierson.nl">5235@pierson.nl</a> of <a id="email" href="mailto:5025@pierson.nl">5025@pierson.nl</a>.</footer>
+  </body>
+
+</html>
